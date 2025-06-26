@@ -9,16 +9,7 @@
   --font-lora: 'Lora', serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  line-height: 1.7;
-  font-family: 'Inter', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
+
 
 /* Basic Reset */
 *,
@@ -31,11 +22,6 @@ body {
 
 
 /* Main Content Area */
-main {
-  padding: 2rem 1rem;
-  max-width: 800px;
-  margin: 0 auto;
-  min-height: calc(100vh - 140px); /* Adjust based on header/footer height */
-}
+
 
 
