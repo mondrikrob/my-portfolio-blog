@@ -1,0 +1,88 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.textContainer {
+  max-width: 600px;
+}
+
+.title {
+  font-family: var(--font-lora);
+  font-size: 3.5rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.linkButton {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.9rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.linkButton:hover {
+  background-color: #0056b3;
+}
+
+.linkButtonSecondary {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.9rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.linkButtonSecondary:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.imageContainer {
+  margin-left: 4rem;
+}
+
+.profileImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .imageContainer {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .links {
+    justify-content: center;
+  }
+}

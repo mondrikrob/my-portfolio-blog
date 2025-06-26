@@ -1,0 +1,34 @@
+.resume h1 {
+  font-family: var(--font-lora);
+  font-size: 3rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 1rem;
+}
+
+.resume h2 {
+  font-family: var(--font-lora);
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.resume p,
+.resume ul {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--secondary-color);
+}
+
+.resume ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.resume li {
+  margin-bottom: 0.5rem;
+}
