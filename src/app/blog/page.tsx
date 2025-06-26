@@ -15,7 +15,7 @@ export default function Blog() {
         {posts.map((post) => (
           <li key={post.id} className={styles.postItem}>
             <h2 className={styles.postTitle}>
-              <Link href={`/blog/${post.id}`}>{post.title}</Link>
+              <Link href={`/blog/${post.id}`} className={styles.postLink}>{post.title}</Link>
             </h2>
             <p className={styles.postExcerpt}>{post.excerpt}</p>
             <Link href={`/blog/${post.id}`} className={styles.readMoreLink}>

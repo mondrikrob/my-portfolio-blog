@@ -20,7 +20,7 @@
   margin-bottom: 0.5rem;
 }
 
-.postTitle a {
+.postLink {
   text-decoration: none;
   color: var(--text-color);
   transition: color 0.2s ease;
