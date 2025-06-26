@@ -1,4 +1,4 @@
-.resume h1 {
+.resumeTitle {
   font-family: var(--font-lora);
   font-size: 3rem;
   color: var(--text-color);
@@ -7,7 +7,7 @@
   padding-bottom: 1rem;
 }
 
-.resume h2 {
+.sectionTitle {
   font-family: var(--font-lora);
   font-size: 2rem;
   color: var(--text-color);
