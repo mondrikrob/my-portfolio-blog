@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './Hero.module.css';
 
 const Hero = () => {
@@ -10,8 +11,8 @@ const Hero = () => {
           During my life i have found passion in data, travelling and sports. I am trying to combine these hobbies to make my life as interesting as possible.
         </p>
         <div className={styles.links}>
-          <a href="/blog" className={styles.linkButton}>Read My Blog</a>
-          <a href="/resume" className={styles.linkButtonSecondary}>View My Resume</a>
+          <Link href="/blog" className={styles.linkButton}>Read My Blog</Link>
+          <Link href="/resume" className={styles.linkButtonSecondary}>View My Resume</Link>
         </div>
       </div>
       <div className={styles.imageContainer}>
