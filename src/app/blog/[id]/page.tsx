@@ -34,7 +34,7 @@ export default function BlogPost({ params }: { params: { id: string } }) {
         <p className={styles.postMeta}>Category: {post.category}</p>
       </header>
       <div className={styles.postContent}>
-        <p>{post.content}</p>
+        <p className={styles.postContentParagraph}>{post.content}</p>
       </div>
     </article>
   );

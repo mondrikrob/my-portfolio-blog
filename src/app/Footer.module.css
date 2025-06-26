@@ -5,7 +5,7 @@
   border-top: 1px solid var(--border-color);
 }
 
-.footer p {
+.footerText {
   margin: 0;
   font-size: 0.9rem;
   color: var(--secondary-color);

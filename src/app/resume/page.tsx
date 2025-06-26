@@ -22,9 +22,9 @@ export default function Resume() {
 
       <section>
         <h2 className={styles.sectionTitle}>Skills</h2>
-        <p><strong>Programming Languages:</strong> JavaScript, TypeScript, Python, HTML, CSS</p>
-        <p><strong>Frameworks & Libraries:</strong> React, Node.js, Next.js, Express</p>
-        <p><strong>Tools:</strong> Git, Docker, Webpack, Babel</p>
+        <p className={styles.resumeParagraph}><strong>Programming Languages:</strong> JavaScript, TypeScript, Python, HTML, CSS</p>
+        <p className={styles.resumeParagraph}><strong>Frameworks & Libraries:</strong> React, Node.js, Next.js, Express</p>
+        <p className={styles.resumeParagraph}><strong>Tools:</strong> Git, Docker, Webpack, Babel</p>
       </section>
     </div>
   );

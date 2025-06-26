@@ -17,18 +17,17 @@
   padding-bottom: 0.5rem;
 }
 
-.resume p,
-.resume ul {
+.resumeParagraph {
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--secondary-color);
 }
 
-.resume ul {
+.resumeList {
   list-style-position: inside;
   padding-left: 0;
 }
 
-.resume li {
+.resumeListItem {
   margin-bottom: 0.5rem;
 }
